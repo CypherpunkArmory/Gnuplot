@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     fun processIntent(intent: Intent) {
         val ulaIntent = Intent(this, MainActivity::class.java)
-        val app = App("gnuplot", "Distribution", "gnuplot", false, true, "false", false, 1)
+        val app = App("gnuplot", "Distribution", "gnuplot", true, true, "false", false, 1)
         ulaIntent.putExtra("app", app)
         this.startActivity(ulaIntent)
         finish()

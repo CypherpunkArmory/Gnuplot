@@ -34,7 +34,7 @@ android {
         buildConfigField "String", "DEFAULT_USERNAME", "\"userland\""
 
         //controls whether to ask for session type or not
-        buildConfigField 'boolean', 'USE_DEFAULT_SERVICE_TYPE', 'true'
+        buildConfigField 'boolean', 'USE_DEFAULT_SERVICE_TYPE', 'false'
         buildConfigField "String", "DEFAULT_LAUNCH_TYPE", "\"vnc\""
 
         buildConfigField "String", "VNC_DISPLAY", "\"52\""
